@@ -1,0 +1,20 @@
+#btn-Sair a {
+	text-decoration: none;
+	color: #FFF;
+}
+
+.col-lg-4 {
+	float: right;
+}
+
+.titulo-table{
+	background-color: #252222;
+	font-family: Arial;
+	color: white;
+	text-align: center;
+}
+
+tbody, tr, td{
+	text-align: center;
+	background-color: #FFFFFF;
+}

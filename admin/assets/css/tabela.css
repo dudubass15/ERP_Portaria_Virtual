@@ -1,0 +1,12 @@
+.table .table-striped .table-bordered .table-hover {
+	background: white;
+	border: 2px;
+}
+
+
+.table, .table-striped, .table-bordered, .table-hover, thead, tr, th {
+	text-align: center;
+	font-family: Verdana;
+	right: 100px;
+	
+}

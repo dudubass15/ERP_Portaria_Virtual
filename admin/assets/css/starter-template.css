@@ -1,0 +1,17 @@
+body {
+  padding-top: 50px;
+}
+.starter-template {
+  padding: 40px 15px;
+  text-align: center;
+}
+
+
+#deslogar {
+
+	margin: auto;
+	padding: auto;
+	padding-top: 10px;
+	padding-left: 250px;
+	float: left;
+}

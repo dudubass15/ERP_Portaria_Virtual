@@ -1,0 +1,72 @@
+#btn-menu { /* CSS do botão referente ao cadastramento dos condomínios */
+	float: right;
+	position: relative;
+	padding-right: 35px;
+	padding-bottom: 15px;
+	padding-top: 20px;
+}
+
+#btn-menu a{ /* CSS do botão referente ao cadastramento dos condomínios + o atributo <a> */
+	font-size: 15px;
+	font-family: Georgia;
+}
+
+.titulo-table tr th { /* Campo relacionado ao Título dentro da tabela */
+	width: 30px;
+	font-size: 14px;
+	font-family: Georgia;
+	text-align: center;
+	word-spacing: 19px;
+	background-color: #363636;
+	color: white;
+}
+
+.conteudo-table tr td { /* Campo relacionado ao conteúdo dentro da tabela */
+	text-align: center;
+	font-size: 12px;
+	width: 200px;
+	max-width: -30px;
+
+}
+
+.butoes { /* CSS referente ao botão cadastro condominios */
+	float: right;
+	padding-top: 1px;
+}
+
+.botao-cadastro { /* CSS referente ao botão de cadastro */
+	float: right;
+	padding-top: 10px;
+}
+
+.botao-morador { /* CSS referente ao botão cadastro morador */
+	text-align: center;
+	padding-top: 10px;
+}
+
+.botao-prestador { /* CSS referente ao botão cadastro prestador de serviço */
+	text-align: center;
+	padding-top: 10px;
+}
+
+.botao-sindico { /* CSS referente ao botão cadastro sindico */
+	text-align: center;
+	padding-top: 5px;
+}
+
+
+.btn-usuario {
+	text-align: center;
+	padding-top: 30px;
+}
+
+
+#anotacao-button {
+	float: right;
+}
+
+
+.pagination {
+	float: right;
+	padding-top: 120px;
+}
