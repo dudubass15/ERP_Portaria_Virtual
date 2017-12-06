@@ -2,7 +2,7 @@
 class usuarios extends model {
 
 	public function logado() {
-		if (isset($_SESSION['id']) && !empty($_SESSION['id'])) {
+		if (isset($_SESSION['email']) && !empty($_SESSION['email'])) {
 			return true; // retorna valor verdadeiro.
 		} else {
 			return false; // retorna valor false.
@@ -18,7 +18,6 @@ class usuarios extends model {
 			$row = $qry->fetch();
 			$_SESSION['id'] = $row['id'];
 			$_SESSION['email'] = $row['email'];
-			$_SESSION['nome'] = $row['nome'];
 
 			return true;
 		}

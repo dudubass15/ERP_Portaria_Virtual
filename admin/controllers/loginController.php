@@ -6,12 +6,12 @@ class loginController extends controller {
 
 		if (isset($_POST['email']) && !empty($_POST['email'])) { // se o existir $_POST['email'] e não estiver vazia.
 			$email = $_POST['email']; // pega dados do formulário.
-			$senha = md5($_POST['senha']); // pega dados do formulário.
+			$senha = $_POST['senha']; // pega dados do formulário.
 
 			$usuario = new usuarios();
 						
 			if ($usuario->validaLogin($email, $senha)) {// Se a condição for verdadeira, ele entra no IF e redireciona para Home.
-				header('Location: '.URL);
+				header('Location: '.URL.'/home');
 			}
 			
 		}
